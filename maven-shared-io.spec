@@ -1,6 +1,6 @@
 Name:           maven-shared-io
 Version:        1.1
-Release:        6%{?dist}
+Release:        7%{?dist}
 # Maven-shared defines maven-shared-io version as 1.2
 Epoch:          1
 Summary:        API for I/O support like logging, download or file scanning.
@@ -55,6 +55,9 @@ cp %{SOURCE1} LICENSE.txt
 %doc LICENSE.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:1.1-7
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1:1.1-6
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
